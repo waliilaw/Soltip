@@ -1,0 +1,25 @@
+node_modules
+
+dist
+coverage
+.vscode
+.DS_Store
+
+# example env files
+.env
+.env.local
+
+# local env files
+.env.development.local
+.env.test.local
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# github files
+.github
+
+# ignore app.tsx and routes update till project is ready to allow for waitlist only
+src/App.tsx

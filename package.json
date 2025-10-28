@@ -1,0 +1,22 @@
+{
+    "name": "soltip",
+    "version": "1.0.0",
+    "description": "Soltip - Simple USDC tipping on Solana for creators. Share a link or QR code and receive instant tips with no login requirements.",
+    "main": "index.js",
+    "scripts": {
+      "client": "cd client && npm run dev",
+      "server": "cd server && npm run dev",
+      "dev": "concurrently \"npm run client\" \"npm run server\"",
+      "setup": "npm install && cd client && npm install && cd ../server && npm install"
+    },
+    "keywords": [
+        "soltip", "solana", "usdc", "crypto", "tipping", "creators", "web3", "blockchain"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "concurrently": "^8.2.0"
+    },
+    "dependencies": {
+    }
+  }
