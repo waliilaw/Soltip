@@ -7,9 +7,9 @@ const PORT: number = parseInt(process.env.PORT || "8000", 10);
 
 const DATABASE = {
   development:
-    process.env.DEV_MONGODB_URI,
+    process.env.DEV_MONGODB_URI || process.env.MONGODB_URI,
   production:
-    process.env.PROD_MONGODB_URI
+    process.env.PROD_MONGODB_URI || process.env.MONGODB_URI
 };
 
 // JWT configuration
