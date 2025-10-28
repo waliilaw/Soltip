@@ -44,7 +44,7 @@ const seedAdminUser = async (permissions: any[]) => {
     console.log('👤 Seeding admin user...');
     
     // Check if admin user already exists
-    const existingAdmin = await UserModel.findOne({ email: 'admin@tiply.com' });
+    const existingAdmin = await UserModel.findOne({ email: 'admin@soltip.com' });
     if (existingAdmin) {
       console.log('Admin user already exists. Skipping admin user seeding.');
       return existingAdmin;
@@ -58,7 +58,7 @@ const seedAdminUser = async (permissions: any[]) => {
     // Create admin user with superAdmin permissions
     const adminUserData = {
       username: 'admin',
-      email: 'admin@tiply.com',
+      email: 'admin@soltip.com',
       password: hashedPassword,
       displayName: 'System Admin',
       status: UserStatus.ACTIVE,
@@ -72,7 +72,7 @@ const seedAdminUser = async (permissions: any[]) => {
     
     console.log('✅ Successfully created admin user');
     console.log('👤 Admin Credentials:');
-    console.log('   Email: admin@tiply.com');
+    console.log('   Email: admin@soltip.com');
     console.log(`   Password: ${adminPassword}`);
     
     return adminUser;
