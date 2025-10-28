@@ -467,10 +467,10 @@ export function Dashboard() {
                   Your public profile is available at:
                 </p>
                 <div className="font-mono text-sm bg-brand-accent/10 p-3 rounded-lg">
-                  usesoltip.xyz/{user?.username || 'your-username'}
+                  soltip.waliilaw.me/{user?.username || 'your-username'}
                 </div>
                 <a 
-                  href={`https://usesoltip.xyz/${user?.username || 'your-username'}`}
+                  href={`https://soltip.waliilaw.me/${user?.username || 'your-username'}`}
                   target="_blank"
                   rel="noopener noreferrer" 
                   className="mt-3 inline-block text-brand-primary hover:underline text-sm"

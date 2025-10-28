@@ -38,8 +38,8 @@ const PoweredBySolanaIllustration: React.FC<{ className?: string }> = ({ classNa
       {/* Gradient definition */}
       <defs>
         <linearGradient id="solGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#9945FF" />
-          <stop offset="100%" stopColor="#14F195" />
+          <stop offset="0%" stopColor="#FF6B35" />
+          <stop offset="100%" stopColor="#FFA726" />
         </linearGradient>
       </defs>
     </svg>

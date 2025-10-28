@@ -28,7 +28,7 @@ const allowedOrigins = [
   'http://localhost:5173',
   'https://soltips.waliilaw.me',
   'https://www.soltips.waliilaw.me',
-  'https://app.soltips.xyz',
+  'https://app.soltip.waliilaw.me',
   'https://soltip.vercel.app'
 ];
 

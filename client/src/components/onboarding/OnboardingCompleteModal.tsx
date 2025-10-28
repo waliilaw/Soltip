@@ -101,7 +101,7 @@ export const OnboardingCompleteModal: FC<OnboardingCompleteModalProps> = ({
         </p>
 
         <div className="bg-brand-surface/80 backdrop-blur-sm px-4 py-3 rounded-lg border border-brand-border flex items-center justify-center mb-6">
-          <span className="text-brand-primary font-medium">soltips.xyz/@</span>
+          <span className="text-brand-primary font-medium">soltip.waliilaw.me/@</span>
           <span className="font-bold">{username}</span>
         </div>
 
@@ -110,7 +110,7 @@ export const OnboardingCompleteModal: FC<OnboardingCompleteModalProps> = ({
             variant="outline"
             className="flex gap-2"
             onClick={() => {
-              navigator.clipboard.writeText(`https://soltips.xyz/@${username}`);
+              navigator.clipboard.writeText(`https://soltip.waliilaw.me/@${username}`);
               message.info("Link copied to clipboard");
             }}
           >
@@ -130,7 +130,7 @@ export const OnboardingCompleteModal: FC<OnboardingCompleteModalProps> = ({
             variant="outline" 
             className="flex gap-2"
             onClick={() => {
-              window.open(`https://x.com/intent/tweet?text=Send me a tip on my Soltip page&url=https://soltip.xyz/@${username}`, '_blank');
+              window.open(`https://x.com/intent/tweet?text=Send me a tip on my Soltip page&url=https://soltip.waliilaw.me/@${username}`, '_blank');
             }}
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">

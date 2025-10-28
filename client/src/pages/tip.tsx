@@ -219,7 +219,7 @@ const TipPage = ({ className }: TipPageProps) => {
   const getCustomStyles = () => {
     const customization = creator?.customization || {};
     return {
-      primaryColor: customization.primaryColor || '#9945FF',
+      primaryColor: customization.primaryColor || '#FF6B35',
       backgroundColor: customization.backgroundColor || '#0F172A',
       fontFamily: customization.fontFamily || '"Space Grotesk", sans-serif',
       buttonStyle: customization.buttonStyle || 'rounded'

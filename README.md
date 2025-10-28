@@ -21,7 +21,7 @@ These roadblocks limit spontaneous tipping and reduce creator earnings.
 
 - ✅ **No login required** for tippers
 - ✅ **Anonymous tips** with optional notes
-- ✅ **Unique profile links** (e.g. `soltips.xyz/@username`)
+- ✅ **Unique profile links** (e.g. `soltip.waliilaw.me/@username`)
 - ✅ **QR code support** for easy mobile tipping
 - ✅ **USDC on Solana** = fast, stable, low fees
 - ✅ **Auto-generated custodial wallets** via **Circle**
@@ -185,7 +185,7 @@ The frontend will be available at `http://localhost:5173` and the backend at `ht
 
 ## 🔄 Transaction Flow
 
-1. User visits creator profile at `soltips.xyz/@username`
+1. User visits creator profile at `soltip.waliilaw.me/@username`
 2. Selects tip amount or enters custom amount
 3. Connects Solana wallet (if not already connected)
 4. Confirms transaction

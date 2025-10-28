@@ -172,14 +172,14 @@ export function Hero() {
                 <div className="relative">
                   <div className="flex flex-col sm:flex-row gap-3">
                     <div className="relative flex-grow group">
-                      <div className="absolute inset-y-0 left-0 flex items-center pl-4 text-brand-muted-foreground group-focus-within:text-brand-primary transition-colors">
-                        soltips.xyz/
+                      <div className="absolute inset-y-0 left-0 flex items-center pl-4 text-brand-muted-foreground group-focus-within:text-brand-primary transition-colors text-sm">
+                        soltip.waliilaw.me/
                       </div>
                       <Input
                         type="text"
                         value={username}
                         onChange={handleUsernameChange}
-                        className="pl-[5.5rem] w-full h-12 bg-brand-surface/50 dark:bg-brand-muted/10 border-brand-border dark:border-brand-muted/20 focus:border-brand-primary focus:ring-1 focus:ring-brand-primary rounded-xl transition-all"
+                        className="pl-[11.5rem] w-full h-12 bg-brand-surface/50 dark:bg-brand-muted/10 border-brand-border dark:border-brand-muted/20 focus:border-brand-primary focus:ring-1 focus:ring-brand-primary rounded-xl transition-all"
                         placeholder="yourusername"
                         autoComplete="off"
                         maxLength={20}

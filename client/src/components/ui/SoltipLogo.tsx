@@ -20,7 +20,7 @@ export const SoltipLogo: React.FC<SoltipLogoProps> = ({
   return (
     <div className={`flex items-center space-x-2 ${className}`}>
       {/* Simple S logo with Solana colors */}
-      <div className={`${sizes[size].icon} flex items-center justify-center rounded-lg bg-gradient-to-br from-[#9945FF] to-[#14F195] text-white font-bold ${sizes[size].text}`}>
+      <div className={`${sizes[size].icon} flex items-center justify-center rounded-lg bg-gradient-to-br from-[#FF6B35] to-[#FFA726] text-white font-bold ${sizes[size].text}`}>
         S
       </div>
       {showText && (
@@ -51,15 +51,15 @@ export const SoltipLogoSVG: React.FC<{ className?: string }> = ({ className = ''
       />
       
       {/* Drip effect */}
-      <ellipse cx="100" cy="130" rx="8" ry="12" fill="#14F195" opacity="0.8" />
-      <ellipse cx="100" cy="145" rx="6" ry="8" fill="#14F195" opacity="0.6" />
-      <ellipse cx="100" cy="155" rx="4" ry="6" fill="#14F195" opacity="0.4" />
+      <ellipse cx="100" cy="130" rx="8" ry="12" fill="#FFA726" opacity="0.8" />
+      <ellipse cx="100" cy="145" rx="6" ry="8" fill="#FFA726" opacity="0.6" />
+      <ellipse cx="100" cy="155" rx="4" ry="6" fill="#FFA726" opacity="0.4" />
       
       {/* Gradient definition */}
       <defs>
         <linearGradient id="gradient" x1="0" y1="0" x2="200" y2="200">
-          <stop offset="0%" stopColor="#9945FF" />
-          <stop offset="100%" stopColor="#14F195" />
+          <stop offset="0%" stopColor="#FF6B35" />
+          <stop offset="100%" stopColor="#FFA726" />
         </linearGradient>
       </defs>
     </svg>

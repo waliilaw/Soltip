@@ -28,7 +28,7 @@ export const TipLinkSection: React.FC<TipLinkSectionProps> = ({
   const [activeTab, setActiveTab] = useState('link');
   const [showQR, setShowQR] = useState(false);
   
-  const tipLink = `https://soltips.xyz/${username}`;
+  const tipLink = `https://soltip.waliilaw.me/${username}`;
   
   useEffect(() => {
     // Reset copied state when changing user

@@ -103,7 +103,7 @@ export function ContactPage() {
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="tipper@soltip.xyz"
+                    placeholder="tipper@soltip.waliilaw.me"
                     value={formState.email}
                     onChange={handleChange}
                     required
@@ -168,10 +168,10 @@ export function ContactPage() {
                         Email Us
                       </h3>
                       <p className="text-brand-muted-foreground">
-                        support@soltip.xyz
+                        support@soltip.waliilaw.me
                       </p>
                       <p className="text-brand-muted-foreground">
-                        partnerships@soltip.xyz
+                        partnerships@soltip.waliilaw.me
                       </p>
                     </div>
                   </div>

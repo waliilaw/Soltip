@@ -53,11 +53,11 @@ export const hasRoleAccess = (
 export const PROJECT_INFO = {
   name: "soltip",
   description: "A decentralized tipping platform for creators and communities.",
-  url: "https://usesoltip.xyz",
-  image: "https://usesoltip.xyz/logo.png",
-  twitterUrl: "https://twitter.com/soltipHQ",
-  repoUrl: "https://github.com/eimaam/soltip",
-  supportEmail: "support@usesoltip.xyz"
+  url: "https://soltip.waliilaw.me",
+  image: "https://soltip.waliilaw.me/logo.png",
+  twitterUrl: "https://twitter.com/soltipsxyz",
+  repoUrl: "https://github.com/waliilaw/soltip",
+  supportEmail: "support@soltip.waliilaw.me"
 }
 
 // public routes

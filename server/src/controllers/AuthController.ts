@@ -973,7 +973,7 @@ export class AuthController {
         httpOnly: true,
         secure: process.env.NODE_ENV === 'production',
         sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
-        domain: process.env.NODE_ENV === 'production' ? 'usesoltip.xyz' : undefined,
+        domain: process.env.NODE_ENV === 'production' ? 'soltip.waliilaw.me' : undefined,
         path: '/'
       });
       
@@ -981,7 +981,7 @@ export class AuthController {
         httpOnly: true,
         secure: process.env.NODE_ENV === 'production',
         sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
-        domain: process.env.NODE_ENV === 'production' ? 'usesoltip.xyz' : undefined,
+        domain: process.env.NODE_ENV === 'production' ? 'soltip.waliilaw.me' : undefined,
         path: '/api/v1/auth/refresh'
       });
       

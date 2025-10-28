@@ -41,15 +41,15 @@ const projectSettings = {
   general: {
     siteName: 'Soltip',
     siteDescription: 'Simple USDC tipping on Solana for creators',
-    contactEmail: 'support@soltips.xyz',
-    supportUrl: 'https://soltips.xyz/contact',
+    contactEmail: 'support@soltip.waliilaw.me',
+    supportUrl: 'https://soltip.waliilaw.me/contact',
     maintenanceMode: false,
     signupsEnabled: true,
     requireEmailVerification: true,
     defaultUserCurrency: 'USD',
     timeZone: 'UTC',
-    termsUrl: 'https://soltips.xyz/terms',
-    privacyUrl: 'https://soltips.xyz/privacy',
+    termsUrl: 'https://soltip.waliilaw.me/terms',
+    privacyUrl: 'https://soltip.waliilaw.me/privacy',
   },
   payment: {
     processingFee: 2.5,
@@ -79,7 +79,7 @@ const projectSettings = {
   notifications: {
     email: {
       enabled: true,
-      fromEmail: 'noreply@soltips.xyz',
+      fromEmail: 'noreply@soltip.waliilaw.me',
       tipReceived: true,
       tipFailed: true,
       newSignup: true,
@@ -93,8 +93,8 @@ const projectSettings = {
     }
   },
   branding: {
-    primaryColor: '#9945FF',
-    secondaryColor: '#14F195',
+    primaryColor: '#FF6B35',
+    secondaryColor: '#FFA726',
     logoUrl: '/assets/images/soltip-logo.png',
     favicon: '/public/favicon.png',
     enableCustomBranding: true,

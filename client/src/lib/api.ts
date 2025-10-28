@@ -7,7 +7,7 @@ let isRefreshing = false;
 let refreshSubscribers: ((token: string) => void)[] = [];
 
 // Create axios instances
-const baseURL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api/v1';
+const baseURL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api/v1';
 
 // Public API - for unauthenticated requests
 export const publicApi = axios.create({

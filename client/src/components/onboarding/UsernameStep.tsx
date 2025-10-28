@@ -189,7 +189,7 @@ export function UsernameStep({
           {/* Info note */}
           <div className="flex items-start space-x-2 text-sm text-brand-muted-foreground">
             <InfoCircleOutlined className="text-brand-primary mt-0.5" />
-            <span>Your profile will be available at soltip.xyz/@{username || 'yourusername'}. You can change this later in settings.</span>
+            <span>Your profile will be available at soltip.waliilaw.me/@{username || 'yourusername'}. You can change this later in settings.</span>
           </div>
         </div>
         
