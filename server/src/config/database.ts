@@ -16,6 +16,13 @@ const options = {
 // Create a connection function
 export const connectDB = async (): Promise<void> => {
   try {
+    // Skip MongoDB for demo if not available
+    if (!MONGODB_URI || MONGODB_URI === 'mongodb://localhost:27017/soltip') {
+      logger.warn('⚠️  MongoDB URI not configured - running in demo mode');
+      logger.info('✅ Demo mode activated - some features may be limited');
+      return;
+    }
+    
     logger.info('🔄 Connecting to MongoDB...');
     await mongoose.connect(MONGODB_URI as string, options);
     
@@ -47,7 +54,9 @@ export const connectDB = async (): Promise<void> => {
     return;
   } catch (error: any) {
     logger.error(`💥 MongoDB connection error: ${error.message}`);
-    throw error;
+    logger.warn('⚠️  Continuing in demo mode without MongoDB...');
+    // Don't throw error - just continue for demo purposes
+    return;
   }
 };
 
