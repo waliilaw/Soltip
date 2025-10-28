@@ -9,23 +9,23 @@ const { Panel } = Collapse;
 
 const faqs = [
   {
-    question: "How does tiply work?",
-    answer: "tiply provides you with a unique, shareable link that allows you to receive tips in USDC cryptocurrency. Simply share your link on your social profiles or content platforms, and your audience can tip you without any login required."
+    question: "How does Soltip work?",
+    answer: "Soltip provides you with a unique, shareable link that allows you to receive tips in USDC cryptocurrency. Simply share your link on your social profiles or content platforms, and your audience can tip you without any login required."
   },
   {
-    question: "Do I need cryptocurrency knowledge to use tiply?",
-    answer: "No prior crypto knowledge is required! For both tipper and creator, we've designed tiply to be user-friendly for everyone. The platform handles all the complexity, so you can focus on creating content, receiving tips or giving tips."
+    question: "Do I need cryptocurrency knowledge to use Soltip?",
+    answer: "No prior crypto knowledge is required! For both tipper and creator, we've designed Soltip to be user-friendly for everyone. The platform handles all the complexity, so you can focus on creating content, receiving tips or giving tips."
   },
   {
     question: "How do I withdraw my tips?",
     answer: "You can withdraw your tips to any compatible wallet address. Simply connect your wallet or enter your wallet address in your dashboard settings, and transfer your tips with a click of a button."
   },
   {
-    question: "Are there any fees for using tiply?",
+    question: "Are there any fees for using Soltip?",
     answer: "No, tips sent to your account remain there until you withdraw them. There's no expiration date, and you can withdraw your earnings at any time."
   },
   {
-    question: "Is tiply secure?",
+    question: "Is Soltip secure?",
     answer: "Yes, security is our top priority. We implement industry-standard security practices to protect your account and funds. All transactions are processed on secure networks with encryption."
   },
 ]

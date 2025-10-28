@@ -434,7 +434,7 @@ export const OnboardingProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       await refreshUser();
       
       // Navigate to dashboard
-      message.success('Onboarding completed! Welcome to Tiply! 🎉', 3);
+      message.success('Onboarding completed! Welcome to Soltip! 🎉', 3);
       
       // Use replace to prevent back-navigation issues
       navigate('/dashboard', { replace: true });

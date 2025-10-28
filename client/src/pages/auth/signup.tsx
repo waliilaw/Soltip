@@ -67,7 +67,7 @@ export function SignUp() {
           <div className="bg-gradient-to-br from-brand-primary to-brand-accent p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto">
             <UserOutlined className="text-2xl text-white" />
           </div>
-          <h1 className="text-2xl font-bold">Create your tiply account</h1>
+          <h1 className="text-2xl font-bold">Create your soltip account</h1>
           <p className="text-brand-muted-foreground">Start receiving tips in minutes</p>
         </motion.div>
 

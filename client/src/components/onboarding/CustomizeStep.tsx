@@ -205,8 +205,8 @@ export function CustomizeStep({
     <div className="space-y-8">
       <div>
         <OnboardingHeading 
-          title="Customize Your tiply ✨" 
-          subtitle="Set your default tip preferences and customize your tiply experience." 
+          title="Customize Your soltip ✨" 
+          subtitle="Set your default tip preferences and customize your soltip experience." 
         />
       </div>
 

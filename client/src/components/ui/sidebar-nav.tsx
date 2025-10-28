@@ -63,7 +63,7 @@ export const SidebarNav: React.FC<SidebarNavProps> = ({
       id: '3',
       type: 'promo',
       title: 'Limited time offer',
-      message: 'Share your tiply tag with 5 friends to unlock premium features for 1 month.',
+      message: 'Share your soltip tag with 5 friends to unlock premium features for 1 month.',
       timestamp: '2025-04-09T08:12:15Z',
       read: true
     }
@@ -180,8 +180,8 @@ export const SidebarNav: React.FC<SidebarNavProps> = ({
         <div className='container mx-auto px-4 py-4'>
           <div className='flex justify-between items-center'>
             <div className="flex items-center space-x-2">
-              <img src={logo} alt="tiply logo" className="h-12 w-auto" />
-              <span className="text-xl font-bold">tiply</span>
+              <img src={logo} alt="soltip logo" className="h-12 w-auto" />
+              <span className="text-xl font-bold">soltip</span>
             </div>
             
             <div className="flex items-center space-x-2">
@@ -312,7 +312,7 @@ export const SidebarNav: React.FC<SidebarNavProps> = ({
               </div>
 
               <div className='p-4 text-center text-xs text-brand-muted-foreground'>
-                &copy; {new Date().getFullYear()} tiply
+                &copy; {new Date().getFullYear()} soltip
               </div>
             </div>
           </motion.aside>
@@ -327,7 +327,7 @@ export const SidebarNav: React.FC<SidebarNavProps> = ({
           <ModalTitle>Confirm Logout</ModalTitle>
         </ModalHeader>
         <ModalBody>
-          <p>Are you sure you want to logout from your tiply account?</p>
+          <p>Are you sure you want to logout from your soltip account?</p>
         </ModalBody>
         <ModalFooter>
           <Button 

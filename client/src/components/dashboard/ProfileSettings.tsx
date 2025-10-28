@@ -241,7 +241,7 @@ export const ProfileSettings: React.FC<ProfileSettingsProps> = ({ className }) =
           label={
             <div className="flex items-center">
               <span>Username</span>
-              <Tooltip title="Your unique @username for your tiply profile">
+              <Tooltip title="Your unique @username for your soltip profile">
                 <QuestionCircleOutlined className="ml-2 text-brand-muted-foreground" />
               </Tooltip>
             </div>

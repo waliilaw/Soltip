@@ -74,7 +74,7 @@ console.log({ user })
             <UserOutlined className="text-2xl text-white" />
           </div>
           <h1 className="text-2xl font-bold">Welcome back!</h1>
-          <p className="text-brand-muted-foreground">Sign in to your tiply account</p>
+          <p className="text-brand-muted-foreground">Sign in to your soltip account</p>
         </motion.div>
 
         <motion.div variants={itemVariants}>

@@ -68,7 +68,7 @@ export function ContactPage() {
           >
             <h1 className="text-4xl font-bold tracking-tight mb-4">Contact Us</h1>
             <p className="text-xl text-brand-muted-foreground mb-8">
-              Have questions about tiply? We're here to help!
+              Have questions about soltip? We're here to help!
             </p>
           </motion.div>
           
@@ -103,7 +103,7 @@ export function ContactPage() {
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="tipper@tiply.xyz"
+                    placeholder="tipper@soltip.xyz"
                     value={formState.email}
                     onChange={handleChange}
                     required
@@ -168,10 +168,10 @@ export function ContactPage() {
                         Email Us
                       </h3>
                       <p className="text-brand-muted-foreground">
-                        support@tiply.xyz
+                        support@soltip.xyz
                       </p>
                       <p className="text-brand-muted-foreground">
-                        partnerships@tiply.xyz
+                        partnerships@soltip.xyz
                       </p>
                     </div>
                   </div>

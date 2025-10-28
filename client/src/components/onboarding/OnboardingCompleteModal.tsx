@@ -130,7 +130,7 @@ export const OnboardingCompleteModal: FC<OnboardingCompleteModalProps> = ({
             variant="outline" 
             className="flex gap-2"
             onClick={() => {
-              window.open(`https://x.com/intent/tweet?text=Send me a tip on my Tiply page&url=https://tiply.xyz/@${username}`, '_blank');
+              window.open(`https://x.com/intent/tweet?text=Send me a tip on my Soltip page&url=https://soltip.xyz/@${username}`, '_blank');
             }}
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">

@@ -151,7 +151,7 @@ export const AdminLayout: React.FC<AdminLayoutProps> = ({ children, title }) => 
             animate={collapsed ? 'collapsed' : 'expanded'}
             className="flex-1"
           >
-            <h1 className="text-xl font-bold text-brand-primary mr-2">tiply Admin</h1>
+            <h1 className="text-xl font-bold text-brand-primary mr-2">soltip Admin</h1>
           </motion.div>
           <Button
             variant="ghost"

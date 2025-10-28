@@ -105,11 +105,11 @@ const WaitlistPage: React.FC = () => {
             <div className="flex items-center justify-center mb-0">
               <img
                 src={logo}
-                alt="tiply Logo"
+                alt="soltip Logo"
                 className="h-20 md:h-24 w-auto"
               />
               <h1 className="text-3xl md:text-5xl font-bold">
-                <span className="text-brand-primary">tiply</span>
+                <span className="text-brand-primary">soltip</span>
               </h1>
             </div>
             <p className="text-lg md:text-xl mt-3 text-brand-muted-foreground">
@@ -154,7 +154,7 @@ const WaitlistPage: React.FC = () => {
               className="inline-flex items-center space-x-2 bg-brand-surface/80 text-brand-primary hover:bg-brand-primary hover:text-white transition-colors py-3 px-6 rounded-full border border-brand-border"
             >
               <TwitterOutlined />
-              <span>Follow @tiplyHQ for updates</span>
+              <span>Follow @soltipHQ for updates</span>
             </a>
           </motion.div>
         </motion.div>
@@ -173,7 +173,7 @@ const WaitlistPage: React.FC = () => {
               Join Our Waitlist 🚀
             </h2>
             <p className="text-brand-muted-foreground">
-              Be the first to know when we launch. Tiply's changing how creators
+              Be the first to know when we launch. Soltip's changing how creators
               get paid and how supporters show love.
             </p>
           </motion.div>
@@ -262,7 +262,7 @@ const WaitlistPage: React.FC = () => {
                     </Button>
                   </div>
                   <p className="text-xs text-center text-brand-foreground">
-                    We'll only email you about tiply launches and important
+                    We'll only email you about soltip launches and important
                     updates. No spam, promise!
                   </p>
                 </form>
@@ -274,7 +274,7 @@ const WaitlistPage: React.FC = () => {
             variants={itemVariants}
             className="pt-10 text-center text-sm text-brand-muted-foreground"
           >
-            &copy; {new Date().getFullYear()} tiply. Built on Solana.
+            &copy; {new Date().getFullYear()} soltip. Built on Solana.
           </motion.div>
         </motion.div>
       </Container>

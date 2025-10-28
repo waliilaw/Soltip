@@ -12,21 +12,21 @@ const faqCategories = [
     title: 'Getting Started',
     faqs: [
       {
-        question: "How does tiply work?",
-        answer: "tiply provides you with a unique, shareable link that allows you to receive tips in USDC cryptocurrency. Simply share your link on your social profiles or content platforms, and your audience can tip you without any login required."
+        question: "How does Soltip work?",
+        answer: "Soltip provides you with a unique, shareable link that allows you to receive tips in USDC cryptocurrency. Simply share your link on your social profiles or content platforms, and your audience can tip you without any login required."
       },
       {
-        question: "Do I need cryptocurrency knowledge to use tiply?",
-        answer: "No prior crypto knowledge is required! For both tipper and creator, we've designed tiply to be user-friendly for everyone. The platform handles all the complexity, so you can focus on creating content, receiving tips or giving tips."
+        question: "Do I need cryptocurrency knowledge to use Soltip?",
+        answer: "No prior crypto knowledge is required! For both tipper and creator, we've designed Soltip to be user-friendly for everyone. The platform handles all the complexity, so you can focus on creating content, receiving tips or giving tips."
       },
       {
-        question: "How do I create my tiply account?",
+        question: "How do I create my Soltip account?",
         answer: "Click the 'Get Started' button, follow our simple onboarding process, and you'll have your personalized tip link in minutes. We'll guide you through setting up your wallet and customizing your profile."
       }
     ]
   },
   {
-    title: 'Using tiply',
+    title: 'Using Soltip',
     faqs: [
       {
         question: "How do I withdraw my tips?",
@@ -50,11 +50,11 @@ const faqCategories = [
     title: 'Payments & Security',
     faqs: [
       {
-        question: "Are there any fees for using tiply?",
+        question: "Are there any fees for using Soltip?",
         answer: "Our Free plan has minimal processing fees. Premium users enjoy reduced fees and additional features like custom branding and advanced analytics. Check our pricing page for detailed information."
       },
       {
-        question: "Is tiply secure?",
+        question: "Is Soltip secure?",
         answer: "Yes, security is our top priority. We implement industry-standard security practices to protect your account and funds. All transactions are processed on secure networks with encryption."
       },
       {
@@ -141,7 +141,7 @@ export function FAQPage() {
               Frequently Asked Questions
             </h1>
             <p className="mt-6 text-lg leading-8 text-brand-muted-foreground">
-              Everything you need to know about tiply
+              Everything you need to know about Soltip
             </p>
           </motion.div>
 

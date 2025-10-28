@@ -51,13 +51,13 @@ export const hasRoleAccess = (
 };
 
 export const PROJECT_INFO = {
-  name: "tiply",
+  name: "soltip",
   description: "A decentralized tipping platform for creators and communities.",
-  url: "https://usetiply.xyz",
-  image: "https://usetiply.xyz/logo.png",
-  twitterUrl: "https://twitter.com/tiplyHQ",
-  repoUrl: "https://github.com/eimaam/tiply",
-  supportEmail: "support@usetiply.xyz"
+  url: "https://usesoltip.xyz",
+  image: "https://usesoltip.xyz/logo.png",
+  twitterUrl: "https://twitter.com/soltipHQ",
+  repoUrl: "https://github.com/eimaam/soltip",
+  supportEmail: "support@usesoltip.xyz"
 }
 
 // public routes

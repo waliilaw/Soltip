@@ -152,8 +152,8 @@ export const WalletSection: React.FC<WalletSectionProps> = ({ className }) => {
         <div className="mb-8 p-4 bg-brand-accent/10 rounded-lg border border-brand-border">
           <div className="flex items-center justify-between mb-2">
             <h3 className="text-lg font-medium flex items-center">
-              <span>Your <code>tiply</code> Balance</span>
-              <Tooltip title="This is the balance of your tiply account">
+              <span>Your <code>soltip</code> Balance</span>
+              <Tooltip title="This is the balance of your soltip account">
                 <QuestionCircleOutlined className="ml-1 text-xs text-brand-muted-foreground" />
               </Tooltip>
             </h3>
